@@ -128,8 +128,8 @@ fun main() {
         LiveActionMovie("Enchanted", 2007, Genre.FANTASY, 107),
         LiveActionMovie("Alice in Wonderland", 2010, Genre.FANTASY, 108),
         ChannelMovie("High School Musical", 2006, Genre.MUSICAL, 98),
-        AnimatedMovie("Moana", 2016, Genre.ADVENTURE, 107, "Disney"),
-        AnimatedMovie("Frozen", 2013, Genre.MUSICAL, 102, "Disney")
+        AnimatedMovie("Moana", 2016, Genre.ADVENTURE, 107, "Disney"), // out of range
+        AnimatedMovie("Frozen", 2013, Genre.MUSICAL, 102, "Disney")   // duplicate
     )
 
     println("=== $appName ===")
